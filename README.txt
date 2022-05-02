@@ -1,0 +1,4 @@
+1. (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
+2. переместиться в корень
+3. poetry install
+4. poetry run python dowload_photos/main.py
